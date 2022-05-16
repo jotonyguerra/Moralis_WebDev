@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello, Moralis</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <h1>Hello Moralis</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sit esse commodi. Labore, perspiciatis excepturi.</p>
+    <p class="first-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sit esse commodi. Labore, perspiciatis excepturi.</p>
+   
+    <p id="moralis-ref"> Visit <a href="https://moralis.io/" target="_blank">Moralis.io</a> and start <strong>Buidl</strong>ing</p>
     <h2>Part 1: Example</h2>
     <h3>Chapter 1: Metamask Wallet</h3>
     <img src="./assets/Login.png" 
@@ -30,6 +33,23 @@
         <li>Tether</li>
     </ul>
 
-    <p>This is a paragraph</p>
+    <form action="#" method="POST">
+        <label>
+            Coin:
+            <input type="text" name="coinName" placeholder="Coin" />
+        </label>
+        
+        <label>
+            Amount:
+            <input type="number" min="0" name="coinQuantity" placeholder="Amount" />
+        </label>
+        <button type="submit">Buy</button>
+    </form>
+    <ul>
+        <li>Lorem ipsum dolor sit amet.</li>
+    </ul>
+    <p>This is
+        
+        a paragraph</p>
 </body>
 </html>
